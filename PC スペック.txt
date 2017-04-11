@@ -1,0 +1,4 @@
+OS  　　:windows10
+CPU 　　:IntelR CeleronR Processor 1005M
+メモリ　:4.00GB
+HD      :全体容量→616GB 空き容量→508GB
