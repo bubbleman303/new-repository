@@ -1,0 +1,26 @@
+<%-- 
+    Document   : methods
+    Created on : 2017/04/14, 18:10:02
+    Author     : 高柴啓三朗
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%!
+    String whoIam(){
+    return "高柴啓三朗<br>1989/03/03<br>高柴です、よろしくお願いします";
+}
+    %>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+    </head>
+    <body>
+          <%
+              String m=whoIam();
+         out.print(m);
+        %>
+    </body>
+</html>
