@@ -1,0 +1,9 @@
+ <%
+         long x=1;
+         
+      for (int i=1;i<21;++i){
+    x=x*8;
+      
+      }
+      out.print(x+"<br>");
+      %>
