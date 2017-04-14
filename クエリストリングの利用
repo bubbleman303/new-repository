@@ -1,0 +1,23 @@
+    <%
+                    //レジのシステム作成
+                  String x=request.getParameter("sougaku");
+                      String y=request.getParameter("kosuu");
+                      String z=request.getParameter("shubetu");
+                      int l = Integer.parseInt(x);
+                       int m = Integer.parseInt(y);
+                        int n = Integer.parseInt(z);
+                      if(n==1){
+                          out.print("雑貨") ;
+                      }else if( n==2){
+                              out.print("生鮮食品");
+                      }else if(n==3){
+                               out.print("その他");
+                      }
+                     
+                      out.print("合計"+x+"円"+"<br>");
+                          out.print("一個当たり"+l/m+"円"+"<br>");
+                    if(l>=5000){
+                      out.print("ポイント:"+l*0.05);
+                    }else if(l>=3000){
+                  out.print("ポイント:"+l*0.04);}
+                %>
