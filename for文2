@@ -1,0 +1,7 @@
+ <%
+          String k="";
+          for (int i=1;i<=30;i++){
+           k=k+"A";
+          }
+         out.print(k);
+      %>
