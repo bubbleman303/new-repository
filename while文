@@ -1,0 +1,8 @@
+  <%
+        int kkk=1000;
+        while(kkk>=100){
+            kkk=kkk/2;
+            
+        }
+        out.print(kkk);
+    %>
