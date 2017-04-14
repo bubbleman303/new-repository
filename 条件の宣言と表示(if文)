@@ -1,0 +1,11 @@
+  <%
+                   //条件文の作成
+                   int i =5;
+                    if (i ==1){
+                out.print("1です！") ;
+                    } else if(i==2){
+                out.print("2です");
+                } else{
+                   out.print("プログラミングキャンプ!");
+                  }
+                %>
