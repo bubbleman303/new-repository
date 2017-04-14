@@ -1,0 +1,17 @@
+<%
+    //簡易素因数分解
+    String  llo=request.getParameter("nihao");
+    int i =Integer.parseInt(llo);
+    out.print("<br>"+"簡易素数分解"+"<br>"+"<br>"+"元の値"+i+"<br>"+"1桁の素因数:");
+    
+    for(int k=2;k<10;k++){
+    
+              while(i%k==0){
+i=i/k;
+out.print(k+(","));
+   }
+}
+    if (i!=1){
+out.print("<br>"+"その他"+i);
+    }
+    %>
