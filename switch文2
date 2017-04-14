@@ -1,0 +1,15 @@
+      <%
+        char X='A'; String Y =" ";
+          switch(X){
+              case 'A':
+                  Y="英語";
+                  break;
+              case 'あ':
+                  Y="日本語";
+                  break;
+              default:
+                  Y=" ";
+          }
+          out.print(Y);
+         
+      %>
