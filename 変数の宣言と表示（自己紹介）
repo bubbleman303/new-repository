@@ -1,0 +1,5 @@
+ <%
+            //変数を使った自己紹介
+                String keikei = ("初めまして。高柴です。");
+                out.println (keikei);
+                %>
