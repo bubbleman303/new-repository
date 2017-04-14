@@ -1,0 +1,11 @@
+<%
+  //連想配列
+HashMap<String,String>連想配列=
+new HashMap<String,String>();
+連想配列.put("1","AAA");
+連想配列.put("hello","world");
+連想配列.put("soeda","33");
+連想配列.put("20","20");
+out.print(連想配列.get("1"));
+
+%> 
