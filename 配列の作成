@@ -1,0 +1,6 @@
+<%
+    //中身入りの配列を作成
+String hairetu2[]={"10","100","soeda","hayashi","-20","118","END"};
+hairetu2[2]="33";
+out.print(Arrays.toString(hairetu2));
+%>
