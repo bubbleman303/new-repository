@@ -1,0 +1,12 @@
+  <%
+                    //四則演算
+
+
+                int num1 = 2,num2=3,num3=4,num5=6;
+                out.print("<br>");
+                out.print(++num1+num3+"<br>");
+                
+                out.print((num3-num5)+"<br>");
+                out.print((num3*num5)+"<br>");
+                out.print((num3/num2)+"<br>");
+                %>
