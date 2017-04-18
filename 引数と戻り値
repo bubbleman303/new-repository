@@ -1,0 +1,4 @@
+<%--     Document   : 引数と戻り値2    Created on : 2017/04/18, 12:11:39    Author     : 高柴啓三朗--%>
+<%@page contentType="text/html" pageEncoding="UTF-8"%><%!    String[][] 個人情報(){    String 田[]={"1","田中","1月","東京"};    String 吉[]={"2","吉田","2月",null};    String 太[]={"3","太田","3月","埼玉"};    String[] 大型配列[]={田,吉,太};return 大型配列;}%>
+<!DOCTYPE html><html>    <head>        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">        <title>JSP Page</title>    </head>    <body>        <%      String[][]test=個人情報();      for (int i=0;i<3;i++){                    for(int k=1;k<4;k++){      out.print(test[i][k]+"<br>");      if(test[i][k]==null){      continue;      } } }
+%>    </body></html>
